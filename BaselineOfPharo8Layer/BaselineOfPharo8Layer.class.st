@@ -9,7 +9,6 @@ BaselineOfPharo8Layer >> baseline: spec [
 
 	<baseline>
 	spec for: #common do: [ "Packages"
-		spec baseline: 'TinyLogger' with: [ spec repository: 'github://jecisc/TinyLogger:v1.1.0/src' ].
 		spec
 			package: 'BlueInk-Core-Announcements';
 			package: 'BlueInk-Core-Utilities';
@@ -17,7 +16,7 @@ BaselineOfPharo8Layer >> baseline: spec [
 			package: 'BlueInk-Core-Examples';
 			package: 'BlueInk-Core-Utilities';
 			package: 'BlueInk-Extras-Settings';
-			package: 'Pharo8Layer' with: [ spec requires: #('TinyLogger') ].
+			package: 'Pharo8Layer' with: [ "spec requires: #('NewBloc')" ].
 		"Groups"
 		spec
 			group: 'default'
