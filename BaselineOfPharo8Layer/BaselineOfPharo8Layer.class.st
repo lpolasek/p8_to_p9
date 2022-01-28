@@ -17,7 +17,7 @@ BaselineOfPharo8Layer >> baseline: spec [
 			package: 'BlueInk-Core-Examples';
 			package: 'BlueInk-Core-Utilities';
 			package: 'BlueInk-Extras-Settings';
-			package: 'Pharo8Layer' with: [ spec requires: #('SmaCC') ].
+			package: 'Pharo8Layer' with: [ spec requires: 'SmaCC' ].
 		"Groups"
 		spec
 			group: 'default'
