@@ -10,14 +10,13 @@ BaselineOfPharo8Layer >> baseline: spec [
 	<baseline>
 	spec for: #common do: [ "Packages"
 		spec
-			baseline: 'SmaCC' with: [ spec repository: 'github://j-brant/SmaCC/src' ];
 			package: 'BlueInk-Core-Announcements';
 			package: 'BlueInk-Core-Utilities';
 			package: 'BlueInk-Core-Base';
 			package: 'BlueInk-Core-Examples';
 			package: 'BlueInk-Core-Utilities';
 			package: 'BlueInk-Extras-Settings';
-			package: 'Pharo8Layer' with: [ spec requires: 'SmaCC' ].
+			package: 'Pharo8Layer' with: [ "spec requires: #('NewBloc')" ].
 		"Groups"
 		spec
 			group: 'default'
